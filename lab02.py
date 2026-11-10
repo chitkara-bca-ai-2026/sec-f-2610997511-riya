@@ -1,0 +1,25 @@
+name = input("Enter your Employee name: ")
+Id = int(input("Enter your Employee ID: "))
+salary = float(input("Enter your Employee salary: "))
+dep = input("Enter your Employee department: ")
+is_active = bool(input("Is the Employee active? (yes/no): "))
+
+print("Enter Employee name:", name)
+print("Data type:", name)
+print("Enter Employee ID:", Id)
+print("Data type:", type(Id))
+print("Enter Employee salary:", salary)
+print("Data type:", type(salary))
+print("Enter Employee department:", dep)
+print("Data type:", type(dep))
+print("Is the Employee active?:", is_active)
+print("Data type:", type(is_active))
+
+
+print("--- Employee Details---")
+print("Name      :", name)
+print("ID        :", Id)
+print("Salary    :", salary)
+print("Department:", dep)
+print("Active    :", is_active)
+

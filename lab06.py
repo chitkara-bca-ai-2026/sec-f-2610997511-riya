@@ -1,0 +1,16 @@
+name = input("Enter your name: ")
+garment = input("Enter type of garment: ")
+price = float(input("Enter price of garment: "))
+qnty = int(input("Enter quantity of garment: "))
+total = price * qnty
+
+print("===========================================")
+print("                   BILL                    ")
+print("===========================================")
+print("Customer Name          : ", name)
+print("Garment Type           : ", garment)
+print("Price of Garment       : ", price)
+print("Quantity of Garment    : ", qnty)
+print("-------------------TOTAL-------------------")
+print("Total Amount           : ", total)
+print("===========================================")

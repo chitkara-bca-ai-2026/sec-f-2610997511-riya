@@ -1,0 +1,16 @@
+print("=======================================")
+print("          STUDENT RECORD DISPLAY         ")
+print("=======================================")
+
+name=input("enter name:")
+age=int(input("enter age:"))
+marks=float(input("enter marks:"))
+
+print("Enter Student Name:", name)
+print("Enter age:", age)
+print("Enter Marks:", marks)
+print("---------------------------------------")
+print("Student Details:")
+print("Name :", name)
+print("Age  :", age)
+print("Marks:", marks)
